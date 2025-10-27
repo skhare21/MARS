@@ -7,7 +7,7 @@ if [[ -z "${GOOGLE_CLOUD_PROJECT}" ]]; then
     echo "(where PROJECT_ID is the desired project)"
 else
     echo "Project Name: $GOOGLE_CLOUD_PROJECT"
-    gcloud storage buckets create gs://$GOOGLE_CLOUD_PROJECT"-bucket" --soft-delete-duration=0
+    gcloud storage buckets create $GOOGLE_CLOUD_PROJECT"-bucket" --soft-delete-duration=0
     gcloud services enable dataflow.googleapis.com
     gcloud iam service-accounts create marssa
     sleep 1
