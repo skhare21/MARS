@@ -3,8 +3,8 @@ Monitoring, Auditing and Reporting System (MARS)
  
 ## Clone in the Repo
 Open Cloud Shell\
-Clone in the `https://github.com/ROIGCP/Mars` repo\
-    Command: `git clone https://github.com/ROIGCP/Mars`\
+Clone in the `` repo\
+    Command: `git clone https://github.com/skhare21/MARS`\
     Command: `cd Mars`
 
 ## GETTING MARS WORKING IN CLOUDSHELL (run prep-project.sh)
